@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 赵森
+title: Sen Zhao
 
 # Name pronunciation (optional)
-name_pronunciation: Sen Zhao
+<!-- name_pronunciation: Sen Zhao -->
 
 # Full name (for SEO)
 first_name: Sen
@@ -11,7 +11,7 @@ last_name: Zhao
 
 # Status emoji
 status:
-  icon: ☕️
+  <!-- icon: ☕️ -->
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,47 +24,58 @@ role: Assistant Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Hawaii at Mānoa
+    url: https://www.soest.hawaii.edu/soestwp/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-5597-1109
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=DSWiT8wAAAAJ
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Sen-Zhao-3
+  - icon: brands/github
+    url: https://github.com/senclimate
+  - icon: at-symbol
+    url: 'mailto:zhaos@hawaii.edu'
+    label: E-mail Me
 
+
+  
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+- Climate Dynamics and Predictability
+- El Niño–Southern Oscillation
+- Pantropical Climate Interactions
+- Atmospheric Waves & Teleconnections
+- Paleoclimate
+
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  courses:
+  - area: PhD in Meteorology
+    institution: 
+    year: 2016
+  - area: BS in Atmospheric Sciences
+    institution: Lanzhou University
+    year: 2011
+
+    
+education:
+  - area: PhD in Meteorology
+    institution: Institute of Atmospheric Physics, Chinese Academy of Sciences
+    date_start: 2011-09-01
+    date_end: 2016-07-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BS in Atmospheric Sciences
+    institution: Lanzhou University
+    date_start: 2007-09-01
+    date_end: 2011-07-31
     summary: |
       GPA: 3.8/4.0
 
@@ -72,17 +83,7 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+ 
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -181,6 +182,11 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Welcome!
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a climate scientist specializing in dynamics and impacts of large-scale climate variability and change. 
+
+I have a broad interest in understanding the multi-scale interactions of the Earth system, encompassing the atmosphere, ocean, cryosphere, and land surface. Additionally, I explore the societal implications of climate teleconnections and their effects on regional climates and extreme events. Leveraging our understanding of the physical mechanisms governing these interactions, we aim to enhance our ability to predict future climate changes and their impacts. For more details on my research, 
+
+My tools include theoretical approaches, statistical analysis, machine learning and hierarchies of climate modeling, ranging from simple models to the state-of-the-art earth system models.  
+
